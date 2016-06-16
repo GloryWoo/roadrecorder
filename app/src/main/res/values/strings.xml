@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RoadRecorder</string>
+
+    <!-- for car monitor -->
+    <string name="monitor_name">monitor</string>
+    <string name="filenums_hint">maximum files num</string>
+    <string name="filenums_unit">files</string>
+    <string name="duration_hint">maximum duration</string>
+    <string name="duration_unit">sec</string>
+    <string name="title_activity_monitor">行车记录仪</string>
+    <string name="monitor_switch">行车记录开关</string>
+</resources>

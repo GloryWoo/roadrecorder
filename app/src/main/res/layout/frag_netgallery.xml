@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center">
+    <harman.com.toolbarslidingtab.SlidingTabLayout
+        android:id="@+id/frg_d_tbar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:fillViewport="false" />
+    <harman.com.util.widget.CustomViewPager
+        android:id="@+id/frg_d_custom_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/menu_popup_unlock"-->
+        <!--android:icon="@mipmap/lock"-->
+        <!--android:showAsAction="always|withText"-->
+        <!--android:title="Unlock" />-->
+    <item android:id="@+id/menu_popup_delete"
+        android:icon="@mipmap/delete"
+        android:showAsAction="always|withText"
+        android:title="Delete" />
+    <item android:id="@+id/menu_popup_upload"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:showAsAction="always|withText"
+        android:title="Share" />
+    <!--<item android:id="@+id/menu_popup_share"-->
+        <!--android:icon="@mipmap/share"-->
+        <!--android:showAsAction="always|withText"-->
+        <!--android:title="Share" />-->
+</menu>

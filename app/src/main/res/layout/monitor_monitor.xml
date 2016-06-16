@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/vr_monitortureview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_margin="2dp"
+        android:background="@color/transparent_gray">
+    </FrameLayout>
+    <TextView
+        android:id="@+id/startstop_ins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Tap to start recording"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+</FrameLayout>
